@@ -39,13 +39,12 @@ The app intelligently parses your prompt, identifies the cryptocurrency, fetches
 ---
 
 ##  Installation & Setup
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/kozqarashigi/AI-Crypto-Assistant-Gemini.git
    cd AI-Crypto-Assistant-Gemini
 ```
-2. **Install dependencies**:
+2. Install dependencies:
 
 ```bash
 npm install
