@@ -3,7 +3,7 @@
 ![Screenshot 1](screens/1.png)
 ![Screenshot 2](screens/2.png)
 
-## 💡 Project Overview
+##  Project Overview
 
 **AI Crypto Assistant – Gemini** is a Node.js web app that allows users to get detailed information about cryptocurrencies using natural language. It integrates the **Gemini Pro AI** model and the **CoinGecko API** to deliver real-time coin summaries and market data.
 
