@@ -1,4 +1,5 @@
-# # AI Crypto Assistant – Gemini
+# AI Crypto Assistant – Gemini
+## Ulzhan Tamyzgazina SE-2325
 
 ![Screenshot 1](screens/1.png)
 ![Screenshot 2](screens/2.png)
