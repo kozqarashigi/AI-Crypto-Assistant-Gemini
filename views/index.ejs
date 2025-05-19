@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  
+</head>
+<body>
+
+  <header>
+    <h1>Crypto Assistant</h1>
+  </header>
+
+<div class="container">
+  <form method="GET" action="/">
+    <label>Symbol:
+      <input type="text" name="symbol" value="<%= symbol || '' %>" required>
+    </label>
+    <label>Coin ID:
+      <input type="text" name="id" value="<%= id || '' %>" required>
+    </label>
+    <label>Coin Name:
+      <input type="text" name="name" value="<%= name || '' %>" required>
+    </label>
+    <button type="submit">Get Summary</button>
+  </form>
+
+  <% if (error) { %>
+    <div class="error-message"><%= error %></div>
+  <% } %>
+
+  <% if (result) { %>
+    <div class="result-card">
+      <%= result.replace(/\n/g, '<br>') %>
+    </div>
+  <% } %>
+</div>
+
+
+  <footer>
+    <p>Powered by Gemini AI, Binance, Coingecko, CryptoPanic</p>
+  </footer>
+
+</body>
+</html>
